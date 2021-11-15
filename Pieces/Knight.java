@@ -1,3 +1,7 @@
+package Pieces;
+
+import java.util.ArrayList;
+
 public final class Knight extends Piece {
 	public Knight(final Color color, final int life, final int isMoved) {
 		super(PieceType.KNIGHT, color, life, isMoved);
